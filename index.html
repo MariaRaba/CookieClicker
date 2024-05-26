@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <header>
+        <h1>Gastrodon Petter</h1>
+      </header>
+      <main>
+        <div class="left">
+          <img id="cookie-image" src="Gastrodon_WestSea.png" alt="" />
+        </div>
+        <div class="right">
+          <h2><span id="cookie-number"></span> Pets</h2>
+          <span id="cookie-number-click"></span> per Click -
+          <span id="cookie-number-second"></span> per Second
+          <div id="updates">
+            <div id="cursor" class="update-box">
+              <div class="level">1</div>
+              <div>
+                Increase / (Click)<br />Price:
+                <span class="price"></span> Pets
+              </div>
+              <input type="button" value="Update" />
+            </div>
+
+            <div id="factory" class="update-box">
+              <div class="level"></div>
+              <div>
+                Increase Pets / (Second)<br />Price:
+                <span class="price"></span> Pets
+              </div>
+              <input type="button" value="Update" />
+            </div>
+
+            <div id="multiplier" class="update-box">
+              <div class="level"></div>
+              <div>
+                Current Pet Multiplier<br />Price: <span class="price"></span> Pets
+              </div>
+              <input type="button" value="Update" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
